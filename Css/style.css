@@ -1,0 +1,272 @@
+/*Diseño General*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+}
+.LogoTanBionica{
+    width: 20%;
+    margin-left: 10px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 1rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+body{
+    background-color: gray;
+}
+footer{
+    
+    padding-top: 2rem;
+}
+footer .Redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline black 2px;
+}
+
+ footer .iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 30px;
+    height: 2px;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Pagina Inicio*/
+
+.Video-Youtube{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.Video-Youtube iframe{
+    width: 45rem;
+    height: 25rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+main section{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 5rem;
+    row-gap: 5rem;
+    column-gap: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main section .Hermanos{
+    background-color: black;
+    width:25rem;
+    height: 40rem;
+   display: flex;
+   column-gap: 5rem;
+   row-gap: 5rem;
+   flex-wrap: wrap;
+}
+
+main section .Hermanos .imagenes   {
+    width: 25rem;
+    height: 15rem;  
+}
+
+main section .Hermanos .Hermanos-Texto{
+    height: 15rem;
+    
+}
+
+main section .Hermanos .Hermanos-Texto h2{
+    color: white;
+    font-size: 2rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+main section .Hermanos .Hermanos-Texto p{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+    
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Pagina Nosotros*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: underline 2px black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main img{
+    width: 37rem;
+    height: 25rem;
+    border-bottom: 15px;
+   
+    }
+
+main p{
+    
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50rem;
+    height: 40;
+    padding-top: 2rem;
+}
+
+/*------------------------------------------------------------------------------*/
+/*Tienda*/
+main .Tienda{
+   
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+    row-gap: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+main div section img{
+    width: 300px;
+    height: 300px;
+}
+
+main div section h4{
+    text-decoration: underline;
+    font-style: inherit;
+    color: white;
+    font-size: 20px; 
+    display: flex;
+
+   
+
+}
+
+main div section .Boton-compra{
+    display: block;
+    margin-bottom: 5px;
+    width: 70px;
+    height: 30px;
+    color: black;
+    background-color: green;
+}
+
+  
+
+
+
+
+
+/*------------------------------------------------------------------------------*/
+/*Proximas Fechas*/
+
+.Marcos{
+margin: 2%;
+ border-top: 5px solid black;
+border-bottom: 5px solid black;
+padding: 1px;
+}
+
+main .Marcos {
+display: flex;
+flex-direction: row;
+align-items: center;  
+padding-top: 15px; 
+border-bottom: 2px black;
+row-gap: 2px;
+font-size: 2rem;
+}
+
+div{
+    text-align: center;
+}
+
+main section div a{
+    color: black;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Pagina Contacto*/
+main{
+    display: flex;
+
+}
+
+.Formulario{
+    margin-top: 2rem ;
+}
+
+input{
+padding-top: 1rem;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+
+
+.Boton{
+   width: 20%;
+   background-color: black; 
+   color: white;
+   
+   
+ 
+}
+
